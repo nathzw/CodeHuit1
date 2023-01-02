@@ -72,17 +72,16 @@ export const socials = [
   {
     name: 'twitter',
     url: '/twitter.svg',
-  },
-  {
-    name: 'linkedin',
-    url: '/linkedin.svg',
+    href:'https://www.google.com/search?q=instagram&rlz=1C1ALOY_esAR1027AR1027&oq=instagram&aqs=chrome..69i57j0i131i433i512l2j0i512j0i131i433i512l2j0i512j5.1713j0j7&sourceid=chrome&ie=UTF-8',
   },
   {
     name: 'instagram',
     url: '/instagram.svg',
+    href:'https://www.google.com/search?q=instagram&rlz=1C1ALOY_esAR1027AR1027&oq=instagram&aqs=chrome..69i57j0i131i433i512l2j0i512j0i131i433i512l2j0i512j5.1713j0j7&sourceid=chrome&ie=UTF-8',
   },
   {
     name: 'facebook',
     url: '/facebook.svg',
+    href:'https://www.google.com/search?q=instagram&rlz=1C1ALOY_esAR1027AR1027&oq=instagram&aqs=chrome..69i57j0i131i433i512l2j0i512j0i131i433i512l2j0i512j5.1713j0j7&sourceid=chrome&ie=UTF-8',
   },
 ];
