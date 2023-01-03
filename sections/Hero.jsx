@@ -1,8 +1,9 @@
 "use client";
 import { motion } from "framer-motion";
+
 import styles from "../styles";
 import { slideIn, staggerContainer, textVariant } from "../utils/motion";
-
+import { NewFeatures, TitleText, TypingText } from "../components";{/*Impor del title text */}
 const Hero = () => (
   <section className={`${styles.yPaddings} sm:pl-16 pl-6`}>
     <motion.div
@@ -13,14 +14,15 @@ const Hero = () => (
       className={`${styles.innerWidth} mx-auto flex flex-col`}
     >
       <div className="flex justify-center items-center flex-col relative z-10">
-        <motion.h3 variants={textVariant(1.1)} className={styles.heroHeading}>
-          ¡Hola, somos
-        </motion.h3>
+        <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
+        CODE <span className={`${styles.heroHeading} color-code`} >HUIT</span>
+        </motion.h1>
         <motion.div
-          variants={textVariant(1.2)}
-          className="flex flex-row justify-center items-center"
+          variants={textVariant(1.6)}
+          className="flex flex-row justify-center items-center color-code"
         >
-          <h1 className={styles.heroHeading}>CODE  <span className={`${styles.heroHeading} color-code`} >HUIT</span></h1>
+          <TitleText title={<>TU NUEVA FORMA DE CREAR UN SITIO WEB</>}textStyles="text-center" className="color-code"/>
+          
         </motion.div>
       </div>
       <motion.div
@@ -36,11 +38,11 @@ const Hero = () => (
           className="  z-10 relative"
         />
         <a href="#explore">
-          <div className="w-full flex justify-end sm:-mt-[70px] -mt-[50px] pr-[40px] relative z-10">
+          <div className="w-full flex justify-end sm:-mt-[150px] -mt-[40px] pr-[-30px] relative z-10">
             <img
               src="/stamp.png"
               alt="stamp"
-              className="sm:w-[155px] w-[100px] sm:h-[155px] h-[100px] object-contain"
+              className="sm:w-[200px] w-[200px] sm:h-[200px] h-[200px] object-contain"
             />
           </div>
         </a>
