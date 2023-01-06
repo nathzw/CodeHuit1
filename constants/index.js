@@ -22,7 +22,7 @@ export const exploreWorlds = [
   {
     id: 'world-5',
     imgUrl: '/planet-05.png',
-    title: 'SEO',
+    title: 'Motion Graphics',
   },
 ];
 
@@ -37,34 +37,34 @@ export const newFeatures = [
     imgUrl: '/vrpano.svg',
     title: 'Entrega de QA',
     subtitle:
-        '(Documentacion QA, Seguimiento, Estabilización)',
+      '(Documentacion QA, Seguimiento, Estabilización)',
   },
   {
     imgUrl: '/headset.svg',
     title: 'Entrega final.',
     subtitle:
-        '(Acta de entrega y conformidad, Manual de administracion, Encuesta de satisfacción)',
+      '(Acta de entrega y conformidad, Manual de administracion, Encuesta de satisfacción)',
   },
 ];
 
 export const insights = [
   {
     imgUrl: '/planet-06.png',
-    title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
+    title: 'Mi landing page',
     subtitle:
-        'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
+      'Una Landing Page es una página dentro de un sitio web, desarrollada con el único objetivo de convertir los visitantes en Leads o prospectos de ventas por medio de una oferta determinada. Generalmente tiene un diseño más sencillo con pocos enlaces e informaciones básicas sobre la oferta.',
   },
   {
     imgUrl: '/planet-07.png',
-    title: '7 tips to easily master the madness of the Metaverse',
+    title: 'Mi primer E-commerce',
     subtitle:
-        'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
+      'El sector del comercio electrónico ha sido uno de los más disruptores de los últimos años, porque ha revolucionado el comercio tradicional ofreciendo un nivel de comodidad y personalización sin precedentes. Por ello, el comercio electrónico se ha convertido en la base del modelo de negocio para muchísimas marcas.',
   },
   {
     imgUrl: '/planet-08.png',
-    title: 'With one platform you can explore the whole world virtually',
+    title: 'Mi propio sistema de gestión',
     subtitle:
-        'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
+      'Muchas empresas o PyMEs realizan sus actividades de forma no automatizada. Esto implica que existan miles de hojas de Excel desarrolladas individualmente por los diferentes miembros de las diferentes áreas. Esto sin dudas no solo genera una gran pérdida de tiempo para cada uno de los empleados sino también el riesgo de que alguno de todos esos archivos sea eliminado o quede desactualizado.',
   },
 ];
 
@@ -72,16 +72,16 @@ export const socials = [
   {
     name: 'twitter',
     url: '/twitter.svg',
-    href:'https://www.google.com/search?q=instagram&rlz=1C1ALOY_esAR1027AR1027&oq=instagram&aqs=chrome..69i57j0i131i433i512l2j0i512j0i131i433i512l2j0i512j5.1713j0j7&sourceid=chrome&ie=UTF-8',
+    href: 'https://www.google.com/search?q=instagram&rlz=1C1ALOY_esAR1027AR1027&oq=instagram&aqs=chrome..69i57j0i131i433i512l2j0i512j0i131i433i512l2j0i512j5.1713j0j7&sourceid=chrome&ie=UTF-8',
   },
   {
     name: 'instagram',
     url: '/instagram.svg',
-    href:'https://www.google.com/search?q=instagram&rlz=1C1ALOY_esAR1027AR1027&oq=instagram&aqs=chrome..69i57j0i131i433i512l2j0i512j0i131i433i512l2j0i512j5.1713j0j7&sourceid=chrome&ie=UTF-8',
+    href: 'https://www.google.com/search?q=instagram&rlz=1C1ALOY_esAR1027AR1027&oq=instagram&aqs=chrome..69i57j0i131i433i512l2j0i512j0i131i433i512l2j0i512j5.1713j0j7&sourceid=chrome&ie=UTF-8',
   },
   {
     name: 'facebook',
     url: '/facebook.svg',
-    href:'https://www.google.com/search?q=instagram&rlz=1C1ALOY_esAR1027AR1027&oq=instagram&aqs=chrome..69i57j0i131i433i512l2j0i512j0i131i433i512l2j0i512j5.1713j0j7&sourceid=chrome&ie=UTF-8',
+    href: 'https://www.google.com/search?q=instagram&rlz=1C1ALOY_esAR1027AR1027&oq=instagram&aqs=chrome..69i57j0i131i433i512l2j0i512j0i131i433i512l2j0i512j5.1713j0j7&sourceid=chrome&ie=UTF-8',
   },
 ];
