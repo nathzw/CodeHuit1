@@ -5,6 +5,7 @@ import { Link } from "react-scroll";
 import MobileNav from "./NavBar/MobileNav";
 import { useState } from "react";
 import { RxTextAlignLeft } from "react-icons/rx";
+import { NavLink } from "react-router-dom"; 
 
 
 const Navbar = () => {
@@ -30,7 +31,7 @@ const Navbar = () => {
 
           <ul className="hidden md:flex gap-8 p-6 uppercase bg-white/20 backdrop-blur-md  rounded-[20px] cursor-pointer ">
             <li>
-              <Link className="hover:text-[#b4ff00]" to="/">
+              <Link className="hover:text-[#b4ff00]" href="#about">
                 Inicio
               </Link>
             </li>
