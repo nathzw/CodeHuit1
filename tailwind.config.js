@@ -8,6 +8,20 @@ module.exports = {
   ],
   mode: 'jit',
   theme: {
+    screens:{
+      'sm':'320px',
+      //medida de mas chico
+      'md':'768px',
+      //medida de mas 
+      'lg':'1024px',
+      //medida de mas 
+      'xl':'1024px',
+      //medida de mas 
+      'xxl':'1536px',
+      //medida de mas 
+
+    },
+
     extend: {
       colors: {
         'primary-black': '#1A232E',
