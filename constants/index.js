@@ -1,3 +1,4 @@
+// import {facebook, instagram, linkedin, twitter} from "../assents";
 export const exploreWorlds = [
   {
     id: 'world-1',
@@ -84,4 +85,130 @@ export const socials = [
     url: '/facebook.svg',
     href: 'https://www.google.com/search?q=instagram&rlz=1C1ALOY_esAR1027AR1027&oq=instagram&aqs=chrome..69i57j0i131i433i512l2j0i512j0i131i433i512l2j0i512j5.1713j0j7&sourceid=chrome&ie=UTF-8',
   },
+];
+export const feedback = [
+  {
+    id: "feedback-1",
+    content:
+      "Cada vez que veas un negocio exitoso, fue porque alguna vez alguien tomó una decisión valiente.",
+    name: "Correa Leandro",
+    title: "Commercial Manager",
+    imgUrl: '/people01.png',
+    img2:'/quotes.png'
+  },
+  {
+    id: "feedback-2",
+    content:
+      "Cada vez que veas un negocio exitoso, fue porque alguna vez alguien tomó una decisión valiente.",
+    name: "Zwonko Nahuel",
+    title: "Founder & FullStack developer",
+    imgUrl: '/people01.png',
+    img2:'/quotes.png'
+  },
+  {
+    id: "feedback-3",
+    content:
+      "Cada vez que veas un negocio exitoso, fue porque alguna vez alguien tomó una decisión valiente",
+    name: "Martinez Micky",
+    title: "Ui Ux designer",
+    imgUrl: '/people01.png',
+    img2:'/quotes.png'
+  },
+  // {
+  //   id: "feedback-4",
+  //   content:
+  //     "Cada vez que veas un negocio exitoso, fue porque alguna vez alguien tomó una decisión valiente",
+  //   name: "Martinez Micky",
+  //   title: "Ui Ux designer",
+  //   imgUrl: '/people01.png',
+  //   img2:'/quotes.png'
+  // },
+];
+
+export const footerLinks = [
+  {
+    title: "Useful Links",
+    links: [
+      {
+        name: "Content",
+        link: "https://www.hoobank.com/content/",
+      },
+      {
+        name: "How it Works",
+        link: "https://www.hoobank.com/how-it-works/",
+      },
+      {
+        name: "Create",
+        link: "https://www.hoobank.com/create/",
+      },
+      {
+        name: "Explore",
+        link: "https://www.hoobank.com/explore/",
+      },
+      {
+        name: "Terms & Services",
+        link: "https://www.hoobank.com/terms-and-services/",
+      },
+    ],
+  },
+  {
+    title: "Community",
+    links: [
+      {
+        name: "Help Center",
+        link: "https://www.hoobank.com/help-center/",
+      },
+      {
+        name: "Partners",
+        link: "https://www.hoobank.com/partners/",
+      },
+      {
+        name: "Suggestions",
+        link: "https://www.hoobank.com/suggestions/",
+      },
+      {
+        name: "Blog",
+        link: "https://www.hoobank.com/blog/",
+      },
+      {
+        name: "Newsletters",
+        link: "https://www.hoobank.com/newsletters/",
+      },
+    ],
+  },
+  {
+    title: "Partner",
+    links: [
+      {
+        name: "Our Partner",
+        link: "https://www.hoobank.com/our-partner/",
+      },
+      {
+        name: "Become a Partner",
+        link: "https://www.hoobank.com/become-a-partner/",
+      },
+    ],
+  },
+];
+export const socialMedia = [
+  {
+    id: "social-media-1",
+    imgUrlI: '/instagram.png',
+    link: "https://www.instagram.com/",
+  },
+  {
+    id: "social-media-2",
+    imgUrlI: '/facebook.png',
+    link: "https://www.facebook.com/",
+   },
+   {
+     id: "social-media-3",
+     imgUrlI:'/whatsapp.png',
+     link: "https://www.twitter.com/",
+   },
+   {
+     id: "social-media-4",
+     imgUrlI: '/twitter.png',
+     link: "https://www.linkedin.com/",
+ },
 ];

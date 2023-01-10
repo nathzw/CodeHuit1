@@ -8,6 +8,7 @@ import {
   Insights,
   WhatsNew,
   World,
+  CTA,
 } from "../sections";
 
 const Page = () => (
@@ -31,6 +32,7 @@ const Page = () => (
       <div className="gradient-05" z-0></div>
       <Feedback />
     </div>
+    <CTA />
     <Footer />
   </div>
 );
