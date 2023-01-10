@@ -152,10 +152,10 @@ export const footerLinks = [
     ],
   },
   {
-    title: "Community",
+    title: "Comunidad",
     links: [
       {
-        name: "Help Center",
+        name: "Centro de ayuda",
         link: "https://www.hoobank.com/help-center/",
       },
       {
@@ -163,28 +163,20 @@ export const footerLinks = [
         link: "https://www.hoobank.com/partners/",
       },
       {
-        name: "Suggestions",
+        name: "Sugerencias",
         link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
       },
     ],
   },
   {
-    title: "Partner",
+    title: "Contact",
     links: [
       {
-        name: "Our Partner",
+        name: "Av. San Martin, Mendoza, Argentina",
         link: "https://www.hoobank.com/our-partner/",
       },
       {
-        name: "Become a Partner",
+        name: "Codehuit@gmail.com",
         link: "https://www.hoobank.com/become-a-partner/",
       },
     ],

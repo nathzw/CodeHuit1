@@ -180,3 +180,37 @@
 /* .feedback-card:hover {
   background: var(--black-gradient);
 } */
+.bg-discount-gradient {
+  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+}
+.bg-blue-gradient {
+  background: linear-gradient(
+    157.81deg,
+    #def9fa -43.27%,
+    #bef3f5 -21.24%,
+    #9dedf0 12.19%,
+    #7de7eb 29.82%,
+    #5ce1e6 51.94%,
+    #33bbcf 90.29%
+  );
+}
+.bg-blue {
+  background: linear-gradient(
+    157.81deg,
+    #def9fa00 -43.27%,
+    #bef3f500 -21.24%,
+    #9dedf000 12.19%,
+    #7de7eb00 29.82%,
+    #5ce1e600 51.94%,
+    #33bacf00 90.29%
+  );
+}
+.bg-glass-mor{
+    backdrop-filter: blur(25px) saturate(200%);
+    -webkit-backdrop-filter: blur(25px) saturate(200%);
+    background-color: rgba(34, 34, 34, 0.34);
+}
+.pink__gradient {
+  background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
+  filter: blur(900px);
+}
