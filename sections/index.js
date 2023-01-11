@@ -12,7 +12,7 @@ export {
   Hero,
   About,
   Explore,
-  GetStarted,
+  GetStarted, 
   WhatsNew,
   World,
   Insights,
