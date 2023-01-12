@@ -19,7 +19,6 @@ import {
 const Page = () => {
   return (
     <div className="bg-black overflow-hidden">
-     
         <Navbar />
         <Hero />
         <div className="relative">
