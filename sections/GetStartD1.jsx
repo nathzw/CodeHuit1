@@ -18,7 +18,7 @@ const GetStarteD1 = () => (
     >
       <div className={`flex-1 ${styles.flexCenter}`}>
         <img
-          src="../compuDesa1.png"
+          src="../compuDesa3.png"
           alt="desarrollo1"
           className="w-[90%] h-[90%] object-contain"
         />

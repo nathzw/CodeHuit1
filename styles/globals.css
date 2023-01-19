@@ -166,7 +166,7 @@
   background: #65c4fa;
   filter: blur(150px);
 }
-.color-code{
+.color-code {
   color: #b4ff00;
 }
 .feedback-container .feedback-card:last-child {
@@ -205,15 +205,30 @@
     #33bacf00 90.29%
   );
 }
-.bg-glass-mor{
-    backdrop-filter: blur(25px) saturate(200%);
-    -webkit-backdrop-filter: blur(25px) saturate(200%);
-    background-color: rgba(34, 34, 34, 0.34);
+.bg-glass-mor {
+  backdrop-filter: blur(25px) saturate(200%);
+  -webkit-backdrop-filter: blur(25px) saturate(200%);
+  background-color: rgba(34, 34, 34, 0.34);
 }
 .pink__gradient {
   background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
   filter: blur(900px);
 }
-.border-form{
-  border-bottom:solid 1px white;
+.border-form {
+  border-bottom: solid 1px white;
 }
+/* fondo flanco */
+.bgBlanco{
+  background-color: #ffffff;
+}
+/* color cortado */
+.blanco {
+  background: rgb(0,0,0);
+  background: linear-gradient(172deg, rgba(0,0,0,1) 48.5%, rgba(255,255,255,1) 48%);
+}
+/* cortado blanco abajo */
+.blancoA{
+  background: rgb(255,255,255);
+background: linear-gradient(173deg, rgba(255,255,255,1) 48.5%, rgba(0,0,0,1) 48.5%);
+}
+/* margenes de flecha */
