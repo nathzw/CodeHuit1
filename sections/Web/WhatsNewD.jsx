@@ -1,11 +1,11 @@
 "use client";
 import React from "react";
-import styles from "../styles";
+import styles from "../../styles";
 import { motion } from "framer-motion";
-import straggerContainer, { fadeIn } from "../utils/motion";
-import { TitleText } from "../components";
-import { planetVariants } from "../utils/motion";
-import Button2 from "../components/Button2";
+import straggerContainer, { fadeIn } from "../../utils/motion";
+import { TitleText } from "../../components";
+import { planetVariants } from "../../utils/motion";
+import Button2 from "../../components/Button2";
 const WhatsNewD = () => (
   <section className={`${styles.paddings} relative z-10`}>
     <motion.div

@@ -1,21 +1,22 @@
 import React from "react";
 import { Footer, Navbar } from "../../components";
 import "../../styles/globals.css";
-import HeroD from "../../sections/HeroD";
-import AbautD from "../../sections/AbautD";
-import GetStarteD from "../../sections/GetStartD";
-import WhatsNewD from "../../sections/WhatsNewD";
-import GetStarteD1 from "../../sections/GetStartD1";
-import NewSection from "../../sections/NewSection";
-import NewSection2 from "../../sections/NewSection2";
-import NewSectionImg from "../../sections/NewSectionImg";
-import NewSectionFin from "../../sections/NewSectionFin";
-import NewSectionFin1 from "../../sections/NewSectionFin1";
-import Fui from "../../sections/Fui";
+{/*Import dependeci for web*/}
+import HeroD from "../../sections/Web/HeroD";
+import AbautD from "../../sections/Web/AbautD";
+import GetStarteD from "../../sections/Web/GetStartD";
+import WhatsNewD from "../../sections/Web/WhatsNewD";
+import GetStarteD1 from "../../sections/Web/GetStartD1";
+import NewSection from "../../sections/Web/NewSection";
+import NewSection2 from "../../sections/Web/NewSection2";
+import NewSectionImg from "../../sections/Web/NewSectionImg";
+import NewSectionFin from "../../sections/Web/NewSectionFin";
+import NewSectionFin1 from "../../sections/Web/NewSectionFin1";
+import Fui from "../../sections/Web/Fui";
 import CTA1 from "../../components/CTA1";
-import AbautFin from "../../sections/AbautFin";
-import Items from "../../sections/Items";
-import Prueba from "../../sections/Prueba";
+import AbautFin from "../../sections/Web/AbautFin";
+import Items from "../../sections/Web/Items";
+import Prueba from "../../sections/Web/Prueba";
 const desarrollo = () => {
   return (
     <div className="overflow-hidden bg-black ">

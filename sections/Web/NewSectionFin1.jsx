@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles";
+import styles from "../../styles";
 
 const NewSectionFin1 = () => (
     <section className={`${styles.paddings} relative`}>

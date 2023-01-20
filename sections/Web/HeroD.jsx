@@ -1,10 +1,10 @@
 "use client";
 import React from "react";
-import styles from "../styles";
+import styles from "../../styles";
 import { motion } from "framer-motion";
-import { textVariant } from "../utils/motion";
-import { TitleText } from "../components";
-import { fadeIn } from "../utils/motion";
+import { textVariant } from "../../utils/motion";
+import { TitleText } from "../../components";
+import { fadeIn } from "../../utils/motion";
 
   
 

@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "../styles";
-import { TitleText } from "../components";
+import styles from "../../styles";
+import { TitleText } from "../../components";
 const Prueba = () => (
   <section className={`${styles.padding}`}>
     <div className={`${styles.flexCenter} text-center`}>

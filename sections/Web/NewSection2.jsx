@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "../styles";
+import styles from "../../styles";
 import { motion } from "framer-motion";
-import { fadeIn } from "../utils/motion";
+import { fadeIn } from "../../utils/motion";
 const NewSection2 = () =>(
     <section className={`${styles.paddings} relative bgBlanco`}>
 <div>

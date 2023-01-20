@@ -1,11 +1,11 @@
 "use client";
 
 import React from "react";
-import styles from "../styles";
+import styles from "../../styles";
 
-import { NewTitle } from "../components/CustomTexts";
+import { NewTitle } from "../../components/CustomTexts";
 import { motion } from "framer-motion";
-import { fadeIn } from "../utils/motion";
+import { fadeIn } from "../../utils/motion";
 
 const NewSection = () => (
   <section className={`${styles.paddings} relative z-10`}>

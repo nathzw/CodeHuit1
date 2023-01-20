@@ -1,13 +1,14 @@
 "use client";
 import react from "react";
-import styles from "../styles";
+import styles from "../../styles";
 import { motion } from "framer-motion";
-import { TitleText } from "../components";
-import { fadeIn } from "../utils/motion";
-import Button2 from "../components/Button2";
-import straggerContainer from  "../utils/motion"
-const GetStarteD = () => (
-  <section className={`${styles.paddings} relative z-10`}>
+import { TitleText } from "../../components";
+import { fadeIn } from "../../utils/motion";
+import Button2 from "../../components/Button2";
+import straggerContainer from  "../../utils/motion"
+
+const GetStarteD1 = () => (
+    <section className={`${styles.paddings} relative z-10`}>
     <motion.div
     variants={straggerContainer}
     initial="hidden"
@@ -17,7 +18,7 @@ const GetStarteD = () => (
     >
       <div className={`flex-1 ${styles.flexCenter}`}>
         <img
-          src="../compuDesa1.png"
+          src="../compuDesa3.png"
           alt="desarrollo1"
           className="w-[90%] h-[90%] object-contain"
         />
@@ -47,6 +48,5 @@ const GetStarteD = () => (
       </div>
     </motion.div>
   </section>
-);
-
-export default GetStarteD;
+)
+export default GetStarteD1;

@@ -1,9 +1,9 @@
 import React from "react";
-import styles from "../styles";
+import styles from "../../styles";
 import { motion } from "framer-motion";
-import { straggerContainer, fadeIn, planetVariants } from "../utils/motion";
-import { StartSteps, TitleText, TypingText } from "../components";
-import { startingFeatures } from "../constants";
+import { straggerContainer, fadeIn, planetVariants } from "../../utils/motion";
+import { StartSteps, TitleText, TypingText } from "../../components";
+import { startingFeatures } from "../../constants";
 
 const Fui = () => (
   <section className={`${styles.paddings} relative`}>
