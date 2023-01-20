@@ -3,89 +3,55 @@ import styles from "../../styles";
 
 const Abaut = () => (
   <section className={`${styles.paddings} relative`}>
-    <div className={`${styles.flexCenter}`}>
-      <div class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp">
-        {/*item 1*/}
-        <div className={` mb-12 text-center lg:mb-0`}>
-            
-               <img src="../userS.png" alt="UserIcon" className={`aling-center justify-center`} />
-            
-          <h6 class="font-medium color-code text-[32px] ">PERFILES USUARIO</h6>
-          <p className="text-white mt-[12px]">
-            Administre fácilmente los usuarios que tendrán acceso a su negocio
-            en la nube con diferentes perfiles de usuario.
-          </p>
-        </div>
-        {/*item 2*/}
-        <div className="mb-12 text-center lg:mb-0">
-          <h6 class="font-medium color-code text-[32px] ">
-            DISEÑO DE INTERFAZ
-          </h6>
-          <p className="text-white mt-[12px]">
-          Diseño simple y responsivo, que permite acceder mediante un navegador desde cualquier dispositivo.
+    <div className={`section relative pt-20 pb-8 md:pt-16 md:pb-0 `}>
+      <div class="container xl:max-w-6xl mx-auto px-4">
+        <div className="flex flex-row flex-wrap -mx-4 text-center">
+          {/*Item 1*/}
+          <div className="flex-shrink w-full max-w-full px-4 sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp">
+            <div className="px-12 py-8 mb-12 transition duration-300 ease-in-out transform border-b border-[#b4ff00] hover:-translate-y-2">
+              <div className="inline-block mb-4">
+                <img src="../userS.png" alt="" />
+              </div>
+              <h3 class="text-lg leading-normal mb-2 font-semibold text-white">
+              PERFILES USUARIO
+              </h3>
+              <p class="text-white">
+              Administre fácilmente los usuarios que tendrán acceso a su negocio en la nube con diferentes perfiles de usuario.
+              </p>
+            </div>
+          </div>
+          {/*Item 2*/}
+          <div className="flex-shrink w-full max-w-full px-4 sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp">
+            <div className="px-12 py-8 mb-12 transition duration-300 ease-in-out transform border-b border-[#b4ff00] hover:-translate-y-2">
+              <div className="inline-block mb-4 text-gray-900">
+                <img src="../nubeS.png" alt="" />
+              </div>
+              <h3 class="text-lg leading-normal mb-2 font-semibold text-white">
+              DISEÑO DE INTERFAZ
+              </h3>
+              <p class="text-white">
+              Diseño simple y responsivo, que permite acceder mediante un navegador desde cualquier dispositivo.
 
-          </p>
-        </div>
-        {/*item 3*/}
-        <div className="mb-12 text-center lg:mb-0">
-          <h6 class="font-medium color-code text-[32px] ">
-            MODULAR Y FLEXIBLE
-          </h6>
-          <p className="text-white mt-[12px]">
-          ofrecemos la posibilidad de elegir con que módulos trabajar en función de las necesidades de su negocio.
-
-          </p>
+              </p>
+            </div>
+          </div>
+          {/*Item 3*/}
+          <div className="flex-shrink w-full max-w-full px-4 sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp">
+            <div className="px-12 py-8 mb-12 transition duration-300 ease-in-out transform border-b border-[#b4ff00] hover:-translate-y-2">
+              <div className="inline-block mb-4 text-gray-900">
+                <img src="../tuercaS.png" alt="" />
+              </div>
+              <h3 class="text-lg leading-normal mb-2 font-semibold text-white">
+              MODULAR Y FLEXIBLE
+              </h3>
+              <p class="text-white">
+              ofrecemos la posibilidad de elegir con que módulos trabajar en función de las necesidades de su negocio.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div id="services" class="section relative pt-20 pb-8 md:pt-16 md:pb-0 ">
-    <div class="container xl:max-w-6xl mx-auto px-4">
-
-        <div class="flex flex-wrap flex-row -mx-4 text-center">
-            <div class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" >
-                
-                <div class="py-8 px-12 mb-12 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
-                    <div class="inline-block text-gray-900 mb-4">
-                        
-                        <img src="../userS.png"  alt="" />
-                    </div>
-                    <h3 class="text-lg leading-normal mb-2 font-semibold text-black">SEO Services</h3>
-                    <p class="text-gray-500">This is a wider card with supporting text below as a natural content.</p>
-                </div>
-                
-            </div>
-            <div class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".1s" >
-                
-                <div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
-                    <div class="inline-block text-gray-900 mb-4">
-                        
-
-                    </div>
-                    <h3 class="text-lg leading-normal mb-2 font-semibold text-black">Social Content</h3>
-                    <p class="text-gray-500">This is a wider card with supporting text below as a natural content.</p>
-                </div>
-                
-            </div>
-            <div class="flex-shrink px-4 max-w-full w-full sm:w-1/2 lg:w-1/3 lg:px-6 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s" >
-                
-                <div class="py-8 px-12 mb-12 bg-gray-50 border-b border-gray-100 transform transition duration-300 ease-in-out hover:-translate-y-2">
-                    <div class="inline-block text-gray-900 mb-4">
-                        
-                        {/* <svg xmlns="http://www.w3.org/2000/svg" width="2rem" height="2rem" fill="currentColor" class="bi bi-badge-ad" viewBox="0 0 16 16">
-                            <path d="M3.7 11l.47-1.542h2.004L6.644 11h1.261L5.901 5.001H4.513L2.5 11h1.2zm1.503-4.852l.734 2.426H4.416l.734-2.426h.053zm4.759.128c-1.059 0-1.753.765-1.753 2.043v.695c0 1.279.685 2.043 1.74 2.043.677 0 1.222-.33 1.367-.804h.057V11h1.138V4.685h-1.16v2.36h-.053c-.18-.475-.68-.77-1.336-.77zm.387.923c.58 0 1.002.44 1.002 1.138v.602c0 .76-.396 1.2-.984 1.2-.598 0-.972-.449-.972-1.248v-.453c0-.795.37-1.24.954-1.24z"></path>
-                            <path d="M14 3a1 1 0 0 1 1 1v8a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h12zM2 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2z"></path>
-                        </svg> */}
-                    </div>
-                    <h3 class="text-lg leading-normal mb-2 font-semibold text-black">Creative ads</h3>
-                    <p class="text-gray-500">This is a wider card with supporting text below as a natural content.</p>
-                </div>
-                
-            </div>
-
-        </div>
-       
-    </div>
-</div>
   </section>
 );
 

@@ -2,8 +2,9 @@
 import { motion } from "framer-motion";
 
 import styles from "../styles";
-import { straggerContainer, fadeIn } from "../utils/motion";
+import {  fadeIn } from "../utils/motion";
 import { TitleText, TypingText } from "../components";
+import {straggerContainer} from "../utils/motion";
 
 const World = () => (
   <section className={`${styles.paddings} relative z-10`}>
@@ -23,7 +24,7 @@ const World = () => (
         variants={fadeIn("up", "tween", 0.3, 1)}
         className="relative mt-[68px] flex w-full h-[550px]"
       >
-        <img src="/map.png" alt="map" className="w-full h-full object-cover" />
+        <img src="/map.png" alt="map" className="object-cover w-full h-full" />
         {/*empresa 1 */}
         <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
           <a href="#"><img src="people-01.png" alt="empresa-1" className="w-full h-full" /></a>
