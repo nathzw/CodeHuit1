@@ -11,7 +11,7 @@ const Hero = () => (
     className={`flex md:flex-row flex-col ${styles.yPaddings} sm:pl-16 pl-6`}
   >
     <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-6`}>
-      <div className="flex flex-row items-center py-[6px] px-4 rounded-[10px] mb-2 bg-discount-gradient text-white/30">
+      <div className="flex flex-row items-center py-[6px] px-4 rounded-[10px] mb-2 bg-discount-gradient text-white/30 text-center">
         <img
           src="/descuento.png"
           alt="Descuento"
@@ -27,25 +27,23 @@ const Hero = () => (
         <TitleText
           title={
             <>
-              Sistemas <br /> de gestion
+              Sistemas de gestion
             </>
           }
         ></TitleText>
       </div>
+      <div className="flex flex-row font-bold justify-center w-full text-center uppercase mt-[23px]">
       <p className={`${styles.paragraph} text-white text-center`}>
         CODE HUIT ofrece una serie de módulos que le permiten enfocarse en un
         área de su negocio y explotar al máximo sus beneficios
       </p>
+      </div>
+      <div className="flex flex-row justify-center w-full text-center uppercase mt-[23px]">
+      <GetStart />
+      </div>
     </div>
-    <GetStart />
-    <div>
-      <img
-        src="../carrito.png"
-        alt="carrito"
-        className="w-[100%] h-[100%] relative z-5"
-      />
-      <div className="absolute z-[0] w-[40%] h-[35%] botton-40 pink__gradient rounded-full"></div>
-    </div>
+    
+
   </section>
 );
 
