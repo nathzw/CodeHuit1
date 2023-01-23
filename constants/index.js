@@ -3,27 +3,26 @@ export const exploreWorlds = [
   {
     id: 'world-1',
     imgUrl: '/planet-01.png',
-    title: 'Marketing digital',
+    title: 'Ecommerce',
+    Url: './landing/Desarrollo'
   },
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
     title: 'Desarrollo web',
+    Url: './landing/Desarrollo'
   },
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
     title: 'Sistemas de gestion',
+    Url: './landing/Desarrollo'
   },
   {
     id: 'world-4',
     imgUrl: '/planet-04.png',
     title: 'Branding',
-  },
-  {
-    id: 'world-5',
-    imgUrl: '/planet-05.png',
-    title: 'Motion Graphics',
+    Url: './landing/Desarrollo'
   },
 ];
 

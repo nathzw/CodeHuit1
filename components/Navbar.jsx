@@ -9,6 +9,7 @@ import { RxTextAlignLeft } from "react-icons/rx";
 /* import { Link } from 'react-router-dom' */
 
 
+
 const Navbar = () => {
   const [active, setActive] = useState(false);
   const showMenu = () => {
@@ -16,10 +17,11 @@ const Navbar = () => {
   };
   return (
 
-    <div className="fidex w-full text-white flex justify-between p-4 items-center">
-      <div className="text-normal font-bold text-center uppercase ">
-        <div className="w-[40px] ">
-          <img src="/user.png" alt="logocode" />
+    <div className="flex items-center justify-between w-full p-4 text-white fidex">
+      <div className="font-bold text-center uppercase text-normal ">
+        <div className="w-[50px] ">
+          <a href="/"><img src="/user.png" alt="logocode" /></a>
+          
         </div>
       </div>
       <nav>
@@ -32,16 +34,16 @@ const Navbar = () => {
 
         <ul className="hidden md:flex gap-8 p-6 uppercase bg-white/20 backdrop-blur-md  rounded-[20px] cursor-pointer ">
           <li className="hover:text-[#b4ff00]" >
-            Inicio
+            <a href="/">Inicio</a>
           </li>
-          <li className="hover:text-[#b4ff00]" >
+          {/* <li className="hover:text-[#b4ff00]" >
             Sobre nosotros
           </li>
           <li className="hover:text-[#b4ff00]" >
             home
-          </li>
+          </li> */}
           <li className="hover:text-[#b4ff00]" >
-            Contacto
+            <a href="/contact">Contacto</a>
           </li>
         </ul>
         <MobileNav showMenu={showMenu} active={active} />

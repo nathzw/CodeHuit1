@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import styles from "../styles";
 import { fadeIn } from "../utils/motion";
-const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
+const ExploreCard = ({ id, imgUrl, title, index, active, handleClick, Url }) => (
   <motion.div 
     variants={fadeIn("right", "spring", index * 0.5, 0.75)}
     className={`relative ${
@@ -16,17 +16,17 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
     className="absolute w-full h-full object-cover rounded-[24px]"
     />
     {active !== id ? (
-      <h3 className="font-semibold sm:text-[26px] text-[18ppx] text-white absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0]">
+     <a href={Url}> <h3 className="font-semibold sm:text-[26px] text-[18ppx] text-white absolute z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0]">
         {title}
-      </h3>
+      </h3></a>
     ) : (
     <div className="absolute bottom-0 p-8 justify-start w-full flex-col bg-[rgba(0,0,0,0.1)] rounded-b-[24px]">
       <div className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[20px] glassmorphism mb-[16px]`}>
-        <img
+      <img
         src="/headset.svg"
         alt="headset"
-        className="w-1/2 h-1/2 object-contain"
-        />
+        className="object-contain w-1/2 h-1/2"
+        ></img>  
       </div>
       <p className="font-normal text-[16px] leading[20px] text-white ">
         Conoce nuestros planes
