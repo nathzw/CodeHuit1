@@ -75,7 +75,7 @@ export const textContainer = {
 export const textVariant2 = {
   hidden: {
     opacity: 0,
-    y: 20,
+    y: 30,
   },
   show: {
     opacity: 1,
@@ -83,6 +83,8 @@ export const textVariant2 = {
     transition: {
       type: 'tween',
       ease: 'easeIn',
+      staggerChildren: 0.1,
+      delayChildren: 0.1
     },
   },
 };
