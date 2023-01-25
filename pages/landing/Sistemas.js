@@ -7,35 +7,33 @@ import NewSistem from "../../sections/Sistemas/NewSistem";
 import WhatsNew from "../../sections/Sistemas/WhatsNews";
 import GetStart from "../../sections/Sistemas/GetStart";
 import List from "../../sections/Sistemas/List";
-import CTA from "../../components/CTA"
+import CTA from "../../components/CTA";
 import Finish from "../../sections/Sistemas/Finish";
-const sistemas = () =>{
-    return(
-        <div className="overflow-hidden bg-gray">
-            <Navbar />
-            <div className="relative">
-                <Hero />
-                <Abaut />
-            </div>
-            <div className="relative">
-                <WhatsNew />
-                <GetStart />
-            </div>
-            <div className="relative">
-                <NewSistem />
-            </div>
-            <div className="relative">
-                <List />
-            </div>
-            <div className="relative">
-                <CTA />
-                <Finish />
-            </div>
-            <Footer />
-            
-        </div>
-    )
-}
-
+const sistemas = () => {
+  return (
+    <div className="overflow-hidden bg-gray">
+      <Navbar />
+      <div className="relative">
+        <Hero />
+        <Abaut />
+      </div>
+      <div className="relative">
+        <WhatsNew />
+        <GetStart />
+      </div>
+      <div className="relative">
+        <NewSistem />
+      </div>
+      <div className="relative">
+        <List />
+      </div>
+      <div className="relative">
+        <Finish />
+        <CTA />
+      </div>
+      <Footer />
+    </div>
+  );
+};
 
 export default sistemas;

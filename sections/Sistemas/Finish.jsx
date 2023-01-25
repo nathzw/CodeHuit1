@@ -22,7 +22,7 @@ const Finish = () =>(
         className={`${styles.flexCenter}`}
       >
         <img
-          src="../Sistem3.png"
+          src="../sistema/fin1.png"
           alt=""
           className="w-[90%] h-[90%] object-contain"
         />
@@ -74,7 +74,7 @@ const Finish = () =>(
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
-          src="../Sistem2.png"
+          src="../sistema/fin2.png"
           alt="mj"
           className="w-[90%] h-[90%] object-contain"
         />

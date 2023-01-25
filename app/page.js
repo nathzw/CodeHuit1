@@ -1,7 +1,5 @@
 import React from "react";
 import { Footer, Navbar } from "../components";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-
 
 import {
   About,
@@ -18,17 +16,17 @@ import {
 
 const Page = () => {
   return (
-    <div className="bg-black overflow-hidden">
+    <div className="overflow-hidden bg-black">
         <Navbar />
         <Hero />
         <div className="relative">
           <About />
-          <div className="gradient-03 z-0"></div>
+          <div className="z-0 gradient-03"></div>
           <Explore />
         </div>
         <div className="relative ">
           <GetStarted />
-          <div className="gradient-03 z-0"></div>
+          <div className="z-0 gradient-03"></div>
           <WhatsNew />
         </div>
 
