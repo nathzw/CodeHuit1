@@ -10,9 +10,9 @@ import {straggerContainer} from "../../utils/motion"
 import { planetVariants } from "../../utils/motion";
 
 const Hero = () => (
-    <section className={`${styles.paddings} relative`}>
-            <div
-      className={`flex-1 ${styles.flexCenter} flex-col xl:px-0 sm:px-16 px-6`}
+<section className={`flex md:flex-row flex-col ${styles.yPaddings} sm:pl-16 pl-6`}>
+<div
+      className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
     >
       <div className="flex flex-row items-center py-[6px] px-4 rounded-[10px] mb-2 bg-discount-gradient text-white/30">
         <img
@@ -21,42 +21,34 @@ const Hero = () => (
           className="w-[35px] h-[35px]"
         />
         <p className={`${styles.paragraph} ml-2`}>
-          <span className="text-white">10% </span>
+          <span className="text-white">20% </span>
           <span className="text-white/30"> DESCUENTO EN</span>
-          <span className="text-white"> TU PRIMER LOGO</span>
+          <span className="text-white"> TU E-COMMERCE</span>
         </p>
       </div>
-      <motion.div
-      variants={textVariant(2.6)}
-      className="flex flex-row justify-center w-full text-center mt-[50px]">
-        <TitleText title={<>BRANDING</>} />
-      </motion.div>
-      <motion.div
-      variants={straggerContainer}
-      initial="hidden"
-      whileInView="show"
-      viewport={{ once: false, amount: 0.25 }}
-      className={`flex flex-row justify-center w-full mt-[34px]`}>
-      <motion.p 
-      variants={fadeIn("up", "tween", 0.2, 1)}
-      className={`${styles.paragraph} sm:text-[30px] text-[20px] flex justify-center text-white text-center `}>
-      Somos una agencia de branding con experiencia en ayudar a las empresas a desarrollar su identidad de marca y aumentar su presencia en el mercado. Ofrecemos servicios completos de branding, desde la investigación de mercado y el desarrollo de estrategias, hasta la creación de logotipos y materiales de marketing.
-      </motion.p>
-      
-      </motion.div>
-      <div className="flex flex-row justify-center w-full text-center mt-[100px]">
+      <div className="flex flex-row justify-center w-full mt-[100px]">
+        <h1 className="flex-1 font-bold ss:text-[62px] text-[52px] text-white ss:leading-[100px] leading-[75px] text-center">
+          ECOMMERCE
+        </h1>
+        <div className="hidden mr-0 sm:flex md:mr-4">
+          
+        </div>
+      </div>
+
+      <p className={`${styles.paragraph} text-white text-center sm:text-[32px] text-[20px]`}>
+      Una tienda online personalizada te permitirá ofrecer una experiencia única a quienes siguen tu marca y necesitan resolver con practicidad la compra de tus productos. En un mismo lugar tendrás integrada la visibilidad de los artículos, variaciones según talle, color, tamaño o cualquier otra dimensión que haya que agregar junto medios de pago, posibilidades de financiación o envío a domicilio.
+      </p>
+      <div className={`flex w-full mt-[50px] justify-center`}>
       <Button4 />
       </div>
       
     </div>
-    <motion.div 
-    variants={planetVariants("right")}
-    className={`flex-1 ${styles.flexCenter}`}
-    >
-      <img src="../branding/portada.png" alt="robot" className="w-[100%] h-[100%] relative z-[5]"/>
-      
-    </motion.div>
-    </section>
+    
+    <div className="">
+      <img src="../ecommerce/inicio.png" alt="robot" className="w-[100%] h-[100%] relative z-[5]"/>
+      <div className="absolute z-[0] w-[40%] h-[35%] botton-40 pink__gradient rounded-full"></div>
+    </div>
+</section>
 )
 
 export default Hero;
