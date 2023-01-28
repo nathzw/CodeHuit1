@@ -47,3 +47,9 @@ export const TitleLeft = ({title, textStyles}) =>(
     {title}
   </motion.h2>
 )
+export const ParrafoT = ({title, textStyles}) =>(
+  <p className={`${styles.flexCenter} mt-[8px] font-semibold md:[32px] text-[20px] text-white ${textStyles}`}>
+{title}
+  </p>
+)
+
