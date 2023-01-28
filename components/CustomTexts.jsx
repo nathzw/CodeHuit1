@@ -47,9 +47,34 @@ export const TitleLeft = ({title, textStyles}) =>(
     {title}
   </motion.h2>
 )
+export const SubTitle = ({title, textStyles}) =>(
+  <motion.h2
+  variants={textVariant2}
+  initial="hidden"
+  whileInView="show"
+  className={`${styles.flexStart} mt-[8px] font-semibold md:text-[44px] text-[30px] uppercase text-white ${textStyles}`}
+  >
+    {title}
+  </motion.h2>
+)
+export const SubTitle2 = ({title, textStyles}) => (
+  <motion.h2
+  variants={textVariant2}
+  initial="hidden"
+  whileInView="show"
+  className={`${styles.flexStart} mt-[8px] font-semibold md:text-[35px] text-[20px] uppercase text-white ${textStyles}`}
+  >
+    {title}
+  </motion.h2>
+)
 export const ParrafoT = ({title, textStyles}) =>(
   <p className={`${styles.flexCenter} mt-[8px] font-semibold md:[32px] text-[20px] text-white ${textStyles}`}>
 {title}
+  </p>
+)
+export const ParrafoN = ({title, textStyles}) =>(
+  <p className={`${styles.flexCenter} mt-[8px] font-regular md:[32px] text-[20px] text-white ${textStyles}`}>
+    {title}
   </p>
 )
 
