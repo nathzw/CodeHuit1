@@ -235,3 +235,12 @@ background: linear-gradient(173deg, rgba(255,255,255,1) 48.5%, rgba(0,0,0,1) 48.
 .bg-gray{
   background-color: #171A21 ;
 }
+.bg-new{
+
+background: rgba(136, 136, 136, 0.27);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5.9px);
+-webkit-backdrop-filter: blur(5.9px);
+border: 1px solid rgba(136, 136, 136, 1);
+}

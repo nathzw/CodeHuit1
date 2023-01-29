@@ -35,7 +35,7 @@ const Hero = () => (
         </div>
       </div>
 
-      <p className={`${styles.paragraph} text-white text-center sm:text-[32px] text-[20px]`}>
+      <p className={` text-white text-center sm:text-[32px] text-[20px]`}>
       Una tienda online personalizada te permitirá ofrecer una experiencia única a quienes siguen tu marca y necesitan resolver con practicidad la compra de tus productos. En un mismo lugar tendrás integrada la visibilidad de los artículos, variaciones según talle, color, tamaño o cualquier otra dimensión que haya que agregar junto medios de pago, posibilidades de financiación o envío a domicilio.
       </p>
       <div className={`flex w-full mt-[50px] justify-center`}>
