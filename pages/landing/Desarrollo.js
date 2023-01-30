@@ -17,9 +17,26 @@ import CTA1 from "../../components/CTA1";
 import AbautFin from "../../sections/Web/AbautFin";
 import Items from "../../sections/Web/Items";
 import Prueba from "../../sections/Web/Prueba";
-const desarrollo = () => {
-  return (
-    <div className="overflow-hidden bg-black ">
+//loader
+import { useState } from "react";
+import { useEffect } from "react";
+import { SyncLoader } from "react-spinners";
+
+
+function desarrollo(){
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+  }, []);
+  return(
+    <div className={`loader`}>
+    {loading ? (
+      <SyncLoader color={"#b4ff00"} loading={loading} size={20} />
+    ) : (
+      <div className="overflow-hidden bg-black ">
       <Navbar />
       <div className="relative ">
         <HeroD />
@@ -51,6 +68,10 @@ const desarrollo = () => {
       </div>
       <Footer />
     </div>
-  );
-};
+    )}
+  </div>
+  )
+}
+
+
 export default desarrollo;

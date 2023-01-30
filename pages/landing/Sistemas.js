@@ -9,9 +9,26 @@ import GetStart from "../../sections/Sistemas/GetStart";
 import List from "../../sections/Sistemas/List";
 import CTA from "../../components/CTA";
 import Finish from "../../sections/Sistemas/Finish";
-const sistemas = () => {
-  return (
-    <div className="overflow-hidden bg-gray">
+//loader
+import { useState } from "react";
+import { useEffect } from "react";
+import { SyncLoader } from "react-spinners";
+
+
+function sistemas(){
+  const [loading, setLoading] = useState(false);
+  useEffect(() => {
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+    }, 3000);
+  }, []);
+  return(
+    <div className={`loader`}>
+    {loading ? (
+      <SyncLoader color={"#b4ff00"} loading={loading} size={20} />
+    ) : (
+      <div className="overflow-hidden bg-gray">
       <Navbar />
       <div className="relative">
         <Hero />
@@ -33,7 +50,10 @@ const sistemas = () => {
       </div>
       <Footer />
     </div>
-  );
-};
+    )}
+  </div>
+  )
+}
+
 
 export default sistemas;
