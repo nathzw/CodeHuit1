@@ -1,9 +1,8 @@
-"use client";
+"use client"
 import React from "react";
 import { Footer, Navbar } from "../components";
 import { useState, useEffect } from "react";
 import SyncLoader from "react-spinners/SyncLoader";
-import CookieConsent from "react-cookie-consent";
 import {
   About,
   Explore,
@@ -16,13 +15,14 @@ import {
   CTA,
 } from "../sections";
 
+
 function Page() {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 3000);
   }, []);
   return (
     <div className={`loader`}>
@@ -52,6 +52,7 @@ function Page() {
           <div className="relative mt-[23px]">
             <CTA />
           </div>
+<<<<<<< HEAD
           {/* alert cookies */}
           <CookieConsent
             debug={true}
@@ -64,7 +65,7 @@ function Page() {
               border: "2px",
               borderRadius:"10px",
               width:"100px",
-              height:"30px"
+              height:"30px",
             }}
             buttonText="Accept"
             expires={365}
@@ -77,6 +78,8 @@ function Page() {
             para obtener más información.
           </CookieConsent>
           {/* fin alert cookies */}
+=======
+>>>>>>> parent of 82e2e55 (agrego alert para uso de cookies)
           <Footer />
         </div>
       )}
