@@ -65,7 +65,7 @@ function Page() {
               border: "2px",
               borderRadius:"10px",
               width:"100px",
-              height:"30px",
+              height:"30px"
             }}
             buttonText="Accept"
             expires={365}
