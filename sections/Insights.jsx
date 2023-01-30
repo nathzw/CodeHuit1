@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 
 import styles from "../styles";
-import straggerContainer from   '../utils/motion'
+import {straggerContainer} from   '../utils/motion'
 // import { straggerContainer } from "../utils/motion";
 import { InsightCard, TitleText, TypingText } from "../components";
 import { insights} from "../constants";

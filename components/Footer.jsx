@@ -13,9 +13,9 @@ const Footer = () => (
     className={`${styles.paddings} py-4 relative`}
   >
     <section className={`${styles.flexCenter} ${styles.paddings} flex-col`}>
-      <div className="footer-gradient z-30" />
+      <div className="z-30 footer-gradient" />
       <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
-        <div className="flex-1 flex flex-col justify-start mr-10">
+        <div className="flex flex-col justify-start flex-1 mr-10">
           <img
             src="/LogoF.png"
             alt="logocode"
@@ -34,7 +34,7 @@ const Footer = () => (
               <h4 className="text-white font-bold text-[18px] leanding-[27px]">
                 {footerLinks.title}
               </h4>
-              <ul className="list-none mt-4">
+              <ul className="mt-4 list-none">
                 {footerLinks.links.map((link, index) => (
                   <li
                     key={link.name}
@@ -55,7 +55,7 @@ const Footer = () => (
           Copyright © 2022 - 2023 CodeHuit. All rights reserved.
         </p>
 
-        <div className="flex flex-row md:mt-0 mt-6">
+        <div className="flex flex-row mt-6 md:mt-0">
           {socialMedia.map((social, index) => (
             <img
               key={social.map}
@@ -81,7 +81,7 @@ export default Footer;
 // >
 // <div className="footer-gradient" />
 // <div className={`${styles.innerWidth} mx-auto flex flex-col gap-8`}>
-//   <div className="flex items-center justify-between flex-grap gap-5">
+//   <div className="flex items-center justify-between gap-5 flex-grap">
 //     <h4 className="font-bold md:text-[64px] text-[44pox] text-white">
 //       Descubri CODE <span className="font-bold md:text-[64px] text-[44pox] color-code" >HUIT </span>
 //     </h4>
@@ -102,7 +102,7 @@ export default Footer;
 //   </div>
 //   <div className="flex flex-col">
 //     <div className="mb-[50px] h-[2px] bg-white opacity-10" />
-//     <div className="flex items-center justify-between flex-wrap">
+//     <div className="flex flex-wrap items-center justify-between">
 //       <h4 className="font-extrabold text-[20px] text-white">code<span className="font-extrabold text-[20px] color-code">huit</span></h4>
 //       <p className="font-normal text-[10px] text-white opacity-50">
 

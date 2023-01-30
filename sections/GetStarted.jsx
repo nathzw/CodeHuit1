@@ -1,11 +1,11 @@
 "use client";
-
 import { motion } from "framer-motion";
-
 import styles from "../styles";
-import { straggerContainer, fadeIn, planetVariants } from "../utils/motion";
+import {  fadeIn, planetVariants } from "../utils/motion";
 import { StartSteps, TitleText, TypingText } from "../components";
 import { startingFeatures } from "../constants";
+import straggerContainer from "../utils/motion"
+
 const GetStarted = () => (
   <section className={`${styles.paddings} relative z-10`}>
     <motion.div

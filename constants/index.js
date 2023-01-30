@@ -87,15 +87,6 @@ export const socials = [
 ];
 export const feedback = [
   {
-    id: "feedback-1",
-    content:
-      "Cada vez que veas un negocio exitoso, fue porque alguna vez alguien tomó una decisión valiente.",
-    name: "Correa Leandro",
-    title: "Commercial Manager",
-    imgUrl: '/people01.png',
-    img2:'/quotes.png'
-  },
-  {
     id: "feedback-2",
     content:
       "Cada vez que veas un negocio exitoso, fue porque alguna vez alguien tomó una decisión valiente.",
@@ -108,20 +99,11 @@ export const feedback = [
     id: "feedback-3",
     content:
       "Cada vez que veas un negocio exitoso, fue porque alguna vez alguien tomó una decisión valiente",
-    name: "Martinez Micky",
-    title: "Ui Ux designer",
+    name: "Juan Bautista Martinez",
+    title: "Founder & Ui Ux designer",
     imgUrl: '/people01.png',
     img2:'/quotes.png'
   },
-  // {
-  //   id: "feedback-4",
-  //   content:
-  //     "Cada vez que veas un negocio exitoso, fue porque alguna vez alguien tomó una decisión valiente",
-  //   name: "Martinez Micky",
-  //   title: "Ui Ux designer",
-  //   imgUrl: '/people01.png',
-  //   img2:'/quotes.png'
-  // },
 ];
 
 export const footerLinks = [

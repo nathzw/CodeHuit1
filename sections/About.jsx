@@ -2,11 +2,11 @@
 import { motion } from "framer-motion";
 import { TypingText } from "../components";
 import styles from "../styles";
-
-import { fadeIn, straggerContainer } from "../utils/motion";
+import { fadeIn } from "../utils/motion";
+import { straggerContainer } from "../utils/motion";
 const About = () => (
   <section className={`${styles.paddings} relative z-10`} id="about">
-    <div className="gradient-02 z-0" />
+    <div className="z-0 gradient-02" />
     <motion.div
       variants={straggerContainer}
       initial="hidden"

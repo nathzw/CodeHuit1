@@ -1,12 +1,8 @@
 "use client";
-import { motion } from "framer-motion";
 import styles from "../styles";
-/* import { Link } from "react-scroll"; */
 import MobileNav from "./NavBar/MobileNav";
 import { useState } from "react";
 import { RxTextAlignLeft } from "react-icons/rx";
-/* import { NavLink } from "react-router-dom";  */
-/* import { Link } from 'react-router-dom' */
 
 
 

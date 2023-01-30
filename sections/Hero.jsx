@@ -1,13 +1,6 @@
 "use client";
-// import { motion } from "framer-motion";
-
 import styles from "../styles";
-// import { slideIn, staggerContainer, textVariant } from "../utils/motion";
-// import { NewFeatures, TitleText, TypingText } from "../components";
 import GetStart from "../components/GetStart";
-{
-  /*Impor del title text */
-}
 const Hero = () => (
   <section
     id="home"
@@ -30,10 +23,10 @@ const Hero = () => (
       </div>
       <div className="flex flex-row justify-center w-full">
         <h1 className="flex-1 font-normal font-regular ss:text-[62px] text-[52px] text-white ss:leading-[100px] leading-[75px]">
-        Hola, somos <br className="sm:block hidden" />{" "}
+        Hola, somos <br className="hidden sm:block" />{" "}
           <span className="text-white font-bold text-[60px]">CODE </span><span className="text-[#b4ff00] font-bold text-[60px]">HUIT</span> 
         </h1>
-        <div className="sm:flex hidden md:mr-4 mr-0">
+        <div className="hidden mr-0 sm:flex md:mr-4">
           <GetStart />
         </div>
       </div>
@@ -60,13 +53,13 @@ whileInView="show"
 viewport={{ once: false, amount: 0.25 }}
 className={`${styles.innerWidth} mx-auto flex flex-col`}
 >
-<div className="flex justify-center items-center flex-col relative z-10">
+<div className="relative z-10 flex flex-col items-center justify-center">
   <motion.h1 variants={textVariant(1.1)} className={styles.heroHeading}>
   CODE <span className={`${styles.heroHeading} color-code`} >HUIT</span>
   </motion.h1>
   <motion.div
     variants={textVariant(1.6)}
-    className="flex flex-row justify-center items-center color-code"
+    className="flex flex-row items-center justify-center color-code"
   >
     <TitleText title={<>TU NUEVA FORMA DE CREAR UN SITIO WEB</>}textStyles="text-center" className="color-code"/>
     
@@ -82,7 +75,7 @@ className={`${styles.innerWidth} mx-auto flex flex-col`}
     alt="cover"
     width="300"
     height="200"
-    className="  z-10 relative"
+    className="relative z-10 "
   />
   <a href="#explore">
     <div className="w-full flex justify-end sm:-mt-[150px] -mt-[40px] pr-[-30px] relative z-10">

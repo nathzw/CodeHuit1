@@ -1,8 +1,8 @@
 "use client";
 import { useState } from "react";
 import { motion } from "framer-motion";
-
 import styles from "../styles";
+
 import { straggerContainer } from "../utils/motion";
 import { ExploreCard, TitleText, TypingText } from "../components";
 import { exploreWorlds } from "../constants";
@@ -20,7 +20,7 @@ const Explore = () => {
       <TypingText title="|Nuestro trabajo" textStyles="text-center" />
       <TitleText
         title={<>Elige el mundo
-          <br className="md:block hidden"/> que quieras explorar </> } textStyles="text-center"/>
+          <br className="hidden md:block"/> que quieras explorar </> } textStyles="text-center"/>
           <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
             {exploreWorlds.map((world, index) =>(
               <ExploreCard

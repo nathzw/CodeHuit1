@@ -5,14 +5,14 @@ import { fadeIn } from "../utils/motion";
 const InsightCard = ({ imgUrl, title, subtitle, index }) => (
   <motion.div
     variants={fadeIn("up", "spring", index * 0.5, 1)}
-    className="flex md:flex-row flex-col gap-4"
+    className="flex flex-col gap-4 md:flex-row"
   >
     <img
       src={imgUrl}
       alt="planet-01"
       className="md:w-[270px] w-full h-[250px] rounded-[32px] object-cover"
     />
-    <div className="w-full flex flex-row items-center">
+    <div className="flex flex-row items-center w-full">
       <div>
         <div className="flex-1 md:ml-[62px] flex felx-col max-w-[400px]">
           <h4 className="font-normal lg:text-[32px] text-[26px] text-white">{title}</h4>
@@ -24,7 +24,7 @@ const InsightCard = ({ imgUrl, title, subtitle, index }) => (
 
 
       <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white">
-        <img src="arrow.svg" alt="arrow" className="w-[30%] h-[30%] object-contain" />
+        <a href="../contact" className="w-[30%] h-[30%] object-contain"><img src="arrow.svg" alt="arrow"  /></a>
       </div>
     </div>
   </motion.div>

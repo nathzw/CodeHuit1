@@ -26,15 +26,15 @@ const World = () => (
       >
         <img src="/map.png" alt="map" className="object-cover w-full h-full" />
         {/*empresa 1 */}
-        <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
+        <div className="absolute left-[20%]  top-[20rem]  bottom-20 right-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
           <a href="#"><img src="people-01.png" alt="empresa-1" className="w-full h-full" /></a>
         </div>
         {/*empresa 2 */}
-        <div className="absolute top-10 left-20 w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
+        <div className="absolute top-[23rem] left-[10rem] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
          <a href="#"><img src="people-02.png" alt="empresa-1" className="w-full h-full" /></a> 
         </div>
         {/*empresa 3 */}
-        <div className="absolute top-1/2 left-[45%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
+        <div className="absolute top-[27rem] left-[10%] w-[70px] h-[70px] p-[6px] rounded-full bg-[#5d6680]">
          <a href="#"><img src="people-03.png" alt="empresa-1" className="w-full h-full" /></a> 
         </div>
       </motion.div>

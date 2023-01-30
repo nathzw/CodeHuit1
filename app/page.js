@@ -36,7 +36,9 @@ const Page = () => {
           <div className="gradient-05" z-0></div>
           <Feedback />
         </div>
-        <CTA />
+        <div className="relative mt-[23px]">
+          <CTA />
+        </div>
         <Footer />
       
     </div>
