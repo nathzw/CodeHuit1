@@ -3,6 +3,7 @@ import React from "react";
 import { Footer, Navbar } from "../components";
  import { useState, useEffect } from "react";
  import SyncLoader from "react-spinners/SyncLoader";
+ import CookieConsent from "react-cookie-consent";
 import styles from "../styles";
 import {
   About,
@@ -52,7 +53,7 @@ function Page() {
             <CTA />
           </div>
           {/* alert cookies */}
-          {/* <CookieConsent
+          <CookieConsent
             debug={true}
             location="bottom"
             style={{ background: "#1a1a1a", textAlign: "center" }}
@@ -74,7 +75,7 @@ function Page() {
               política de privacidad
             </a>{" "}
             para obtener más información.
-          </CookieConsent> */}
+          </CookieConsent>
           {/* fin alert cookies */}
           <Footer />
         </div>
