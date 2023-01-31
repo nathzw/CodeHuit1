@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import { Footer, Navbar } from "../components";
 import { useState, useEffect } from "react";
@@ -52,9 +52,8 @@ function Page() {
           <div className="relative mt-[23px]">
             <CTA />
           </div>
-<<<<<<< HEAD
           {/* alert cookies */}
-          <CookieConsent
+          {/* <CookieConsent
             debug={true}
             location="bottom"
             style={{ background: "#1a1a1a", textAlign: "center" }}
@@ -76,10 +75,8 @@ function Page() {
               política de privacidad
             </a>{" "}
             para obtener más información.
-          </CookieConsent>
+          </CookieConsent> */}
           {/* fin alert cookies */}
-=======
->>>>>>> parent of 82e2e55 (agrego alert para uso de cookies)
           <Footer />
         </div>
       )}
