@@ -1,8 +1,9 @@
 "use client";
 import React from "react";
 import { Footer, Navbar } from "../components";
-import { useState, useEffect } from "react";
-import SyncLoader from "react-spinners/SyncLoader";
+ import { useState, useEffect } from "react";
+ import SyncLoader from "react-spinners/SyncLoader";
+import styles from "../styles";
 import {
   About,
   Explore,
@@ -14,8 +15,6 @@ import {
   World,
   CTA,
 } from "../sections";
-
-
 function Page() {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
