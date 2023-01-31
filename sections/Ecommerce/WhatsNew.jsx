@@ -20,7 +20,7 @@ const WhatsNew = () => (
         className={`${styles.flexCenter}`}
       >
         <img
-          src="../ecommerce/celu1.png"
+          src="../ecommerce/celu3.png"
           alt=""
           className="w-[90%] h-[90%] object-contain"
         />

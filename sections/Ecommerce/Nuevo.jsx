@@ -10,8 +10,8 @@ const Nuevo = () => (
     >
     </motion.div>
     
-    <div className="items-center justify-center flex-1">
-    <img src="../ecommerce/adaptable.png" className="w-full h-full" alt="" />
+    <div className={`${styles.flexCenter}`}>
+    <img src="../ecommerce/adaptable.png" className="w-[70%] h-[70%]" alt="" />
     </div>
     
   </section>
