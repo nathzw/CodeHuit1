@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../styles";
-
 import emailjs from '@emailjs/browser'
+import swal from "sweetalert";
 
 
 const FormC = () => {
@@ -10,7 +10,19 @@ const FormC = () => {
     event.preventDefault();
 
     emailjs.sendForm('service_sfdoznq', 'template_buav8jp', event.target, 'ewnqACd9EPyRzVAih')
-    .then(response => console.log(response))
+    .then(function(response){
+      if(response == true){
+        window.alert('mensaje enviado con exito')
+      }else{
+        swal({
+          title: "Mesaje enviado con exito",
+          text: "Muchas gracias por contactarnos.",
+          icon: "success",
+          button: "Aceptar",
+          timer: "2000"
+        })
+      }
+    })
     .catch(error => console.log(error))
   }
   
@@ -19,7 +31,7 @@ const FormC = () => {
       <div className="flex flex-col items-center justify-center">
         <h1 className="">Hablemos</h1>
         <div className="w-5/6 bg-black/30 ">
-          <form className="mx-auto mt-2" onSubmit={sendEmail}> {/*onSumit evento para lalmado de formulario*/}
+          <form className="mx-auto mt-2" onSubmit={sendEmail}>
             {/* Nombre */}
             <div className="mx-auto my-3 text-white">
               <h3 className="text-[32px] text-white">¿CÓMO TE LLAMÁS?</h3>
