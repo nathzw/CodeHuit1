@@ -9,6 +9,8 @@ import FormC from "../components/FormC";
 // import { ClipLoader } from "react-spinners";
 import SyncLoader from "react-spinners/SyncLoader";
 
+
+
 function Contact() {
 const [loading, setLoading] = useState(false) 
 useEffect(() =>{
