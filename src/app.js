@@ -1,45 +1,41 @@
-/* import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import { Footer, Navbar } from "../components";
+import React from 'react';
+import { Footer, Navbar } from '../components';
 import {
-    About,
-    Explore,
-    Feedback,
-    GetStarted,
-    Hero,
-    Insights,
-    WhatsNew,
-    World,
-    CTA,
-  } from "../sections";
-function app(){
-    return(
-        
-    <div className="bg-black overflow-hidden">
-     
-    <Navbar />
-    <Hero />
-    <div className="relative">
-      <About />
-      <div className="gradient-03 z-0"></div>
-      <Explore />
-    </div>
-    <div className="relative ">
-      <GetStarted />
-      <div className="gradient-03 z-0"></div>
-      <WhatsNew />
-    </div>
+  About,
+  Explore,
+  Feedback,
+  GetStarted,
+  Hero,
+  Insights,
+  WhatsNew,
+  World,
+  CTA,
+} from '../sections';
 
-    <World />
-    <div className="relative">
-      <Insights />
-      <div className="gradient-05" z-0></div>
-      <Feedback />
+function app() {
+  return (
+    <div className="overflow-hidden bg-black">
+      <Navbar />
+      <Hero />
+      <div className="relative">
+        <About />
+        <div className="z-0 gradient-03" />
+        <Explore />
+      </div>
+      <div className="relative">
+        <GetStarted />
+        <div className="z-0 gradient-03" />
+        <WhatsNew />
+      </div>
+      <World />
+      <div className="relative">
+        <Insights />
+        <div className="z-0 gradient-05" />
+        <Feedback />
+      </div>
+      <CTA />
+      <Footer />
     </div>
-    <CTA />
-    <Footer />
-  
-</div>
-    )
+  );
 }
-export default app; */
+export default app;

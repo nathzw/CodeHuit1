@@ -1,12 +1,10 @@
 import React from 'react';
-// import styles from "../styles";
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { Footer, Navbar } from '../components';
 import '../styles/globals.css';
 import HeroC from '../sections/HeroC';
 import FormC from '../components/FormC';
-// import { ClipLoader } from "react-spinners";
 import SyncLoader from 'react-spinners/SyncLoader';
 
 function Contact() {
@@ -35,4 +33,4 @@ function Contact() {
   )
 }
 
-export default Contact
+export default Contact;

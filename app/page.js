@@ -1,9 +1,9 @@
 "use client";
 import React from "react";
 import { Footer, Navbar } from "../components";
- import { useState, useEffect } from "react";
- import SyncLoader from "react-spinners/SyncLoader";
- import CookieConsent from "react-cookie-consent";
+import { useState, useEffect } from "react";
+import SyncLoader from "react-spinners/SyncLoader";
+import CookieConsent from "react-cookie-consent";
 import styles from "../styles";
 import {
   About,
@@ -62,9 +62,9 @@ function Page() {
               background: "#3561ff",
               fontSize: "14px",
               border: "2px",
-              borderRadius:"10px",
-              width:"100px",
-              height:"30px"
+              borderRadius: "10px",
+              width: "100px",
+              height: "30px",
             }}
             buttonText="Accept"
             expires={365}
