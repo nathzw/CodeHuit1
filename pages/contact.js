@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import { Footer, Navbar } from '../components';
-import '../styles/globals.css';
+// import '../styles/globals.css';
 import HeroC from '../sections/HeroC';
 import FormC from '../components/FormC';
 import SyncLoader from 'react-spinners/SyncLoader';

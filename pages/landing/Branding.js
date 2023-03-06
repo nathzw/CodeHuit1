@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/globals.css";
+// import "../../styles/globals.css";
 
 import { Footer, Navbar } from "../../components";
 import Hero from "../../sections/Branding/Hero";

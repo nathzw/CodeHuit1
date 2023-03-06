@@ -8,7 +8,7 @@ import WhatsNew from "../../sections/Ecommerce/WhatsNew";
 import List from "../../sections/Ecommerce/List";
 import CTA from "../../components/CTA";
 import styles from "../../styles";
-import "../../styles/globals.css";
+// import "../../styles/globals.css";
 //loader
 import { useState } from "react";
 import { useEffect } from "react";

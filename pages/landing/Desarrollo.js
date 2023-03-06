@@ -1,6 +1,6 @@
 import React from "react";
 import { Footer, Navbar } from "../../components";
-import "../../styles/globals.css";
+// import "../../styles/globals.css";
 {/*Import dependeci for web*/}
 import HeroD from "../../sections/Web/HeroD";
 import AbautD from "../../sections/Web/AbautD";

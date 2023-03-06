@@ -1,6 +1,6 @@
 import React from "react";
 import { Footer, Navbar } from "../../components";
-import "../../styles/globals.css";
+// import "../../styles/globals.css";
 import Hero from "../../sections/Sistemas/Hero";
 import Abaut from "../../sections/Sistemas/Abaut";
 import NewSistem from "../../sections/Sistemas/NewSistem";
