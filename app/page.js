@@ -4,7 +4,6 @@ import { Footer, Navbar } from "../components";
 import { useState, useEffect } from "react";
 import SyncLoader from "react-spinners/SyncLoader";
 import CookieConsent from "react-cookie-consent";
-import styles from "../styles";
 import {
   About,
   Explore,
