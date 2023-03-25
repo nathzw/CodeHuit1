@@ -24,7 +24,7 @@ const InsightCard = ({ imgUrl, title, subtitle, index }) => (
 
 
       <div className="lg:flex hidden items-center justify-center w-[60px] h-[60px] rounded-full bg-transparent border-[1px] border-white">
-        <a href="../contact" className="w-[30%] h-[30%] object-contain"><img src="arrow.svg" alt="arrow"  /></a>
+        <a href="../contact.html" className="w-[30%] h-[30%] object-contain"><img src="arrow.svg" alt="arrow"  /></a>
       </div>
     </div>
   </motion.div>

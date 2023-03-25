@@ -39,7 +39,7 @@ const Navbar = () => {
             home
           </li> */}
           <li className="hover:text-[#b4ff00]" >
-            <a href="/contact">Contacto</a>
+            <a href="/contact.html">Contacto</a>
           </li>
         </ul>
         <MobileNav showMenu={showMenu} active={active} />

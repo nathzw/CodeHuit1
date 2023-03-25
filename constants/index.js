@@ -4,25 +4,25 @@ export const exploreWorlds = [
     id: 'world-1',
     imgUrl: '/planet-01.png',
     title: 'Ecommerce',
-    Url: './landing/Desarrollo'
+    Url: './landing/Ecommerce.html'
   },
   {
     id: 'world-2',
     imgUrl: '/planet-02.png',
     title: 'Desarrollo web',
-    Url: './landing/Desarrollo'
+    Url: './landing/Desarrollo.html'
   },
   {
     id: 'world-3',
     imgUrl: '/planet-03.png',
     title: 'Sistemas de gestion',
-    Url: './landing/Desarrollo'
+    Url: './landing/Sistemas.html'
   },
   {
     id: 'world-4',
     imgUrl: '/planet-04.png',
     title: 'Branding',
-    Url: './landing/Desarrollo'
+    Url: './landing/Branding.html'
   },
 ];
 
@@ -91,16 +91,16 @@ export const feedback = [
     content:
       "Cada vez que veas un negocio exitoso, fue porque alguna vez alguien tomó una decisión valiente.",
     name: "Zwonko Nahuel",
-    title: "Founder & FullStack developer",
+    title: "Founder & FullStack developer.",
     imgUrl: '/people01.png',
     img2:'/quotes.png'
   },
   {
     id: "feedback-3",
     content:
-      "Cada vez que veas un negocio exitoso, fue porque alguna vez alguien tomó una decisión valiente",
+      "Lo que hacés marca una diferencia. Tenés que elegir qué tipo de diferencia querés hacer.",
     name: "Juan Bautista Martinez",
-    title: "Founder & Ui Ux designer",
+    title: "Founder & Ui Ux designer.",
     imgUrl: '/people01.png',
     img2:'/quotes.png'
   },
@@ -111,24 +111,24 @@ export const footerLinks = [
     title: "Useful Links",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
+        name: "inicio",
+        link: "https://www.codehuit.com/",
       },
       {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
+        name: "Desarrollo web",
+        link: "https://www.codehuit.com/landing/Desarrollo.html",
       },
       {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
+        name: "Ecommerce",
+        link: "https://www.codehuit.com/landing/Ecommerce.html",
       },
       {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
+        name: "Sistemas",
+        link: "https://www.codehuit.com/landing/Sistemas.html",
       },
       {
         name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        link: "https://www.codehuit.com/terminos/Terminos.html",
       },
     ],
   },
@@ -137,16 +137,13 @@ export const footerLinks = [
     links: [
       {
         name: "Centro de ayuda",
-        link: "https://www.hoobank.com/help-center/",
+        link: "https://wa.me/+542613065988?text=Hola,%20Me%20tengo%20un%20problema%20sobre.",
       },
       {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
+        name: "Quiero ser parte",
+        link: "https://wa.me/+542613065988?text=Hola,%20Me%20me%20gustaria%20ser%20parte%20de%20Codehuit.",
       },
-      {
-        name: "Sugerencias",
-        link: "https://www.hoobank.com/suggestions/",
-      },
+      
     ],
   },
   {
@@ -157,8 +154,7 @@ export const footerLinks = [
         link: "https://www.hoobank.com/our-partner/",
       },
       {
-        name: "Codehuit@gmail.com",
-        link: "https://www.hoobank.com/become-a-partner/",
+        name: "contacto@codehuit.com",
       },
     ],
   },
@@ -167,21 +163,21 @@ export const socialMedia = [
   {
     id: "social-media-1",
     imgUrlI: '/instagram.png',
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/codehuit/",
   },
   {
     id: "social-media-2",
     imgUrlI: '/facebook.png',
-    link: "https://www.facebook.com/",
+    link: "https://www.facebook.com/CodeHuit8",
    },
    {
      id: "social-media-3",
      imgUrlI:'/whatsapp.png',
-     link: "https://www.twitter.com/",
+     link: "https://wa.me/+542613065988?text=Hola,%20Me%20gustaria%20hablar%20sobre%20el%20desarrollo%20de%20mi%20web.",
    },
    {
      id: "social-media-4",
      imgUrlI: '/twitter.png',
-     link: "https://www.linkedin.com/",
+     link: "https://www.linkedin.com/in/code-huit-b74524263/",
  },
 ];
