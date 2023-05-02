@@ -39,7 +39,7 @@ const FormC = () => {
                 required
                 type="name"
                 className="w-full p-4 mt-2 bg-black border-form"
-                placeholder="Nahuel Zwonko"
+                placeholder="John Billmourt"
                 name="user_email"
               />
             </div>
@@ -52,7 +52,7 @@ const FormC = () => {
                 required
                 type="text"
                 className="w-full p-4 mt-2 text-white bg-black outline-none border-form"
-                placeholder="TENGO QUE CONQUISTAR EL MUNDO"
+                placeholder="TENGO QUE CONQUISTAR EL MUNDO!"
                 name="user_message"
               />
             </div>
@@ -62,7 +62,7 @@ const FormC = () => {
               <input
                 type="email"
                 className="w-full p-4 mt-2 text-white bg-black outline-none border-form"
-                placeholder="Codehuit@gmail.com"
+                placeholder="info@codehuit.com"
                 required
                 id="email"
                 size="30"
@@ -102,16 +102,16 @@ const FormC = () => {
                 id="myBrowser"
                 name="user_plata"
                 className="w-full p-4 mt-2 text-white bg-black outline-none border-form"
-                placeholder="Entre USD 5.000 y USD 15.000"
+                placeholder="Entre USD 200 y USD 400"
                 
               />
               <datalist className="w-full" id="browsers">
                 <option
                   className=""
-                  value="Entre USD 5.000 y USD 15.000"
+                  value="Entre USD 200 y USD 400"
                 ></option>
-                <option value="Entre USD 15.000 y USD 30.000"></option>
-                <option value="Entre USD 30.000 y USD 50.000"></option>
+                <option value="Entre USD 400 y USD 600"></option>
+                <option value="Entre USD 600 y USD 1200"></option>
                 <option value="Otro"></option>
               </datalist>
             </div>

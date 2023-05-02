@@ -52,7 +52,7 @@ const Footer = () => (
       </div>
       <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-white/30">
         <p className="font-normal text-[10px] leading-[27px] text-white/30">
-          Copyright © 2022 - 2023 CodeHuit. All rights reserved.
+          Copyright © 2023 - 2024 CodeHuit. All rights reserved.
         </p>
 
         <div className="flex flex-row mt-6 md:mt-0">

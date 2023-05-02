@@ -150,11 +150,11 @@ export const footerLinks = [
     title: "Contact",
     links: [
       {
-        name: "Av. San Martin, Mendoza, Argentina",
+        name: "Primitivo de la Reta, Mendoza, Argentina",
         link: "https://www.hoobank.com/our-partner/",
       },
       {
-        name: "contacto@codehuit.com",
+        name: "info@codehuit.com",
       },
     ],
   },
